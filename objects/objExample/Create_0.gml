@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+uiInit();
+
 httpasync_init();
 
 resolution_init(); // 화면 크기를 조정합니다.
@@ -42,6 +44,14 @@ new Promise()
 .Then(
 	function(callback){ // 로딩 끝
 		show_debug_message("폰트 로딩 끝");
+		
+		uiCreate();
+		
+		showMessage("반갑습니다.", function(){
+			showMessage("제 이름은...", function(){
+				showMessage("『 니코니코니 . 』");
+			});
+		});
 	}
 )
 .Go();

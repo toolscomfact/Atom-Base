@@ -3,6 +3,7 @@
     {"id":{"name":"objUiMessageBox","path":"objects/objUiMessageBox/objUiMessageBox.yy",},"order":1,},
     {"id":{"name":"objUiMessage","path":"objects/objUiMessage/objUiMessage.yy",},"order":0,},
     {"id":{"name":"libRoom","path":"scripts/libRoom/libRoom.yy",},"order":3,},
+    {"id":{"name":"libUiObj","path":"objects/libUiObj/libUiObj.yy",},"order":3,},
     {"id":{"name":"libScroll","path":"scripts/libScroll/libScroll.yy",},"order":5,},
     {"id":{"name":"libPromise","path":"scripts/libPromise/libPromise.yy",},"order":2,},
     {"id":{"name":"objUiQuestionBox","path":"objects/objUiQuestionBox/objUiQuestionBox.yy",},"order":2,},

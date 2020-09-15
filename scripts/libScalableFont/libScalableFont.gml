@@ -21,15 +21,7 @@ function draw_text_size(xx, yy, str, _font, size){
 	if (size == _font.thisFontOrigin){
 		draw_text(xx, yy, str);
 	}else{
-		if (debug_scale == 0){
-			draw_text_transformed(xx, yy, str, size / _font.thisFontOrigin, size / _font.thisFontOrigin, 0);
-		}else{
-			//var scaleUniform = shader_get_uniform(shader_scale, "scaleFloat");
-			//shader_set(shader_scale);
-			//shader_set_uniform_f(scaleUniform, size / _font.thisFontOrigin);
-			draw_text(xx, yy, str);
-			//shader_reset();
-		}
+		draw_text_transformed(xx, yy, str, size / _font.thisFontOrigin, size / _font.thisFontOrigin, 0);
 	}
 		
 	draw_set_font(originFont);
